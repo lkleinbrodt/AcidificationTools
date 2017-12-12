@@ -55,7 +55,7 @@ slice_data = function(my.array, years = c(1900, 2000), origin = 1850){
 #' lon = seq(from = .5, to = 359.5, by = .5)
 #' lat = seq(from = 89.5, to = -89.5, by = -1)
 #' array_to_df(temp, lons = lon, lats = lat)
-array_to_df = function(array, lons, lats, start_date = date('1850-01-01')){
+array_to_df = function(array, lons, lats, start_date = Date('1850-01-01')){
   require(arrayhelpers)
   temp.df = array2df(array, matrix = F, label.x = 'temperature')
   names(temp.df) = c('temperature', 'lonkey', 'latkey', 'date')
