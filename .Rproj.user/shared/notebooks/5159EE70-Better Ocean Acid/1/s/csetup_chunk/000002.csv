@@ -1,0 +1,58 @@
+"0","knitr::opts_chunk$set(echo = TRUE)"
+"0","library(raster)"
+"2","Loading required package: sp
+"
+"0","library(ncdf4)"
+"0","library(tidyverse)"
+"2","Loading tidyverse: ggplot2
+Loading tidyverse: tibble
+Loading tidyverse: tidyr
+Loading tidyverse: readr
+Loading tidyverse: purrr
+Loading tidyverse: dplyr
+"
+"2","Conflicts with tidy packages -----------------------------------------------------------------------------------
+"
+"2","calc():    ggplot2, raster
+extract(): tidyr, raster
+filter():  dplyr, stats
+lag():     dplyr, stats
+select():  dplyr, raster
+"
+"0","library(lubridate)"
+"2","
+Attaching package: ‘lubridate’
+
+"
+"2","The following object is masked _by_ ‘.GlobalEnv’:
+
+    origin
+
+"
+"2","The following object is masked from ‘package:base’:
+
+    date
+
+"
+"0","library(arrayhelpers)"
+"2","Package arrayhelpers, version 1.0-20160527
+
+If you use this package please cite it appropriately.
+   citation(""arrayhelpers"")
+will give you the correct reference.
+
+The project homepage is http://arrayhelpers.r-forge.r-project.org/
+
+
+"
+"2","
+Attaching package: ‘arrayhelpers’
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    slice
+
+"
+"0","library(AcidificationTools)"
+"0","library(ggplot2)"
