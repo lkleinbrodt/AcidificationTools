@@ -4,7 +4,7 @@
 \alias{array_to_df}
 \title{Array to Dataframe}
 \usage{
-array_to_df(array, lons, lats, start_date = date("1850-01-01"))
+array_to_df(array, lons, lats, start_date = lubridate::date("1850-01-01"))
 }
 \arguments{
 \item{array}{input array}

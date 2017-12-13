@@ -64,8 +64,8 @@ array_to_df = function(array, lons, lats, start_date = lubridate::date('1850-01-
 
   temp.df[,'date'] = months(temp.df[,'date']-1) + start_date
 
-  lon.key = data.frame(lonkey = 1:length(lon), x = lons)
-  lat.key = data.frame(latkey = 1:length(lat), y = lats)
+  lon.key = data.frame(lonkey = 1:length(lons), x = lons)
+  lat.key = data.frame(latkey = 1:length(lats), y = lats)
 
   temp.df = temp.df %>%
     left_join(lon.key) %>%
